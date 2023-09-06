@@ -1,5 +1,5 @@
 ---
-title: "Lab 00 - Hello Class!"
+title: "Lab_Assignement_0"
 date: "2016-09-07 (updated `r Sys.Date()` by TL)"
 author: "Tanzy Love"
 output: 
@@ -111,6 +111,7 @@ Read in some data.
 hotdogs=read.table("Hdcalsod.TXT", header=T)
 
 colnames(hotdogs)
+hotdogs$Type
 hotdogs$Calories
 
 attach(hotdogs)
